@@ -62,19 +62,18 @@
            
             **图 1**  face_detection模型转化配置参考<a name="zh-cn_topic_0182554631_fig1513227955"></a>  
              ![image](https://github.com/futureflsl/sample-faceemotion/blob/master/images/face_detection.png)
-            ![](doc/source/img/VanillaCNNModel模型转化配置参考.png "VanillaCNNModel模型转化配置参考")
+           
 
             **图 2**  face_emotion模型转化配置参考<a name="zh-cn_topic_0182554631_fig61342716510"></a>  
-            ![](doc/source/img/SpherefaceModel模型转化配置参考.png "SpherefaceModel模型转化配置参考")
+           
              ![image](https://github.com/futureflsl/sample-faceemotion/blob/master/images/face_emotion.png)
 
     3.  单击OK开始模型转换。
 
         face\_detection模型在转换的时候，会有报错。报错信息如下所示。
-        ![image](https://github.com/futureflsl/sample-faceemotion/blob/master/images/model-conversion-error.jpg)
+        
         **图 3**  模型转换错误<a name="zh-cn_topic_0182554631_fig1632884495219"></a>  
-        ![](doc/source/img/模型转换错误.jpg "模型转换错误")
-
+        ![image](https://github.com/futureflsl/sample-faceemotion/blob/master/images/model-conversion-error.jpg)
         此时在DetectionOutput层的Suggestion中选择SSDDetectionOutput，并点击Retry。
 
         模型转换成功后，后缀为.om的Davinci模型存放地址为$HOME/tools/che/model-zoo/my-model/xxx。
