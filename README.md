@@ -60,18 +60,18 @@ Before running the application, obtain the source code package and configure the
         -   Configure model conversion for the facedetection and faceemotion models by referring to  [Figure 1](#en-us_topic_0182554631_fig1513227955)  and  [Figure 2](#en-us_topic_0182554631_fig61342716510), respectively.
 
             **Figure  1**  VanillaCNNModel Model Conversion Configuration Reference<a name="en-us_topic_0182554631_fig1513227955"></a>  
-            ![](doc/source/img/vanillacnnmodel-model-conversion-configuration-reference.png "vanillacnnmodel-model-conversion-configuration-reference")
+             ![image](https://github.com/futureflsl/sample-faceemotion/blob/master/images/face_detection.png)
 
             
             **Figure  2**  SpherefaceModel Model Conversion Configuration Reference<a name="en-us_topic_0182554631_fig61342716510"></a>  
-            ![](doc/source/img/spherefacemodel-model-conversion-configuration-reference.png "spherefacemodel-model-conversion-configuration-reference")           
+           ![image](https://github.com/futureflsl/sample-faceemotion/blob/master/images/face_emotion.png)           
 
     3.  Click  **OK**  to start model conversion.
 
         During the conversion of the face\_detection model, the following error will be reported.
 
         **Figure  3**  Model conversion error<a name="en-us_topic_0182554631_fig1632884495219"></a>  
-        ![](doc/source/img/model-conversion-error.jpg "model-conversion-error")
+        ![image](https://github.com/futureflsl/sample-faceemotion/blob/master/images/model-conversion-error.jpg)
 
         Select  **SSDDetectionOutput**  from the  **Suggestion**  drop-down list box at the  **DetectionOutput**  layer and click  **Retry**.
 
@@ -122,7 +122,7 @@ Before running the application, obtain the source code package and configure the
     Select the IP address used by the browser to access the Presenter Server service in  **Current environment valid ip list**  and enter the path for storing facial recognition data, as shown in  [Figure 4](#en-us_topic_0182554631_fig184321447181017).
 
     **Figure  4**  Project deployment<a name="en-us_topic_0182554631_fig184321447181017"></a>  
-    ![](doc/source/img/project-deployment.png "project-deployment")
+    ![image](https://github.com/futureflsl/sample-faceemotion/blob/master/images/%E5%B7%A5%E7%A8%8B%E9%83%A8%E7%BD%B2%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 3.  Start Presenter Server.
 
@@ -131,17 +131,17 @@ Before running the application, obtain the source code package and configure the
     **bash run_startpresenterserver.sh**
 
     **Figure  5**  Starting the Presenter Server process<a name="en-us_topic_0182554631_fig69531305324"></a>  
-    ![](doc/source/img/starting-the-presenter-server-process.png "starting-the-presenter-server-process")
+    ![images](https://github.com/futureflsl/sample-faceemotion/blob/master/images/Presenter-Server%E8%BF%9B%E7%A8%8B%E5%90%AF%E5%8A%A8.png)
 
     Use the URL shown in the preceding figure to log in to Presenter Server \(only the Chrome browser is supported\). The IP address is that entered in  [2](#en-us_topic_0182554631_li08019112542)  and the default port number is  **7009**. The following figure indicates that Presenter Server is started successfully.
 
     **Figure  6**  Home page<a name="en-us_topic_0182554631_fig64391558352"></a>  
-    ![](doc/source/img/home-page.png "home-page")
+   ![images](https://github.com/futureflsl/sample-faceemotion/blob/master/images/Presenter-Server%E8%BF%9B%E7%A8%8B%E5%90%AF%E5%8A%A8.png)
 
     The following figure shows the IP address used by the Presenter Server and  Mind Studio  to communicate with the Atlas 200 DK.
 
     **Figure  7**  Example IP Address<a name="en-us_topic_0182554631_fig14929132312013"></a>  
-    ![](doc/source/img/example-ip-address.png "example-ip-address")
+    ![images](https://github.com/futureflsl/sample-faceemotion/blob/master/images/IP%E5%9C%B0%E5%9D%80%E7%A4%BA%E4%BE%8B.png)
 
     Where:
 
@@ -173,7 +173,7 @@ Before running the application, obtain the source code package and configure the
     [Figure 8](#en-us_topic_0182554631_fig1189774382115)  shows the Presenter Server page.
 
     **Figure  8**  Presenter Server page<a name="en-us_topic_0182554631_fig1189774382115"></a>  
-    ![](doc/source/img/presenter-server-page.png "presenter-server-page")
+    ![image](https://github.com/futureflsl/sample-faceemotion/blob/master/images/Presenter-Server%E7%95%8C%E9%9D%A2.png)
 
     >![](doc/source/img/icon-note.gif) **NOTE:**   
     >-   The Presenter Server of the facial recognition application supports a maximum of two channels at the same time (each  _presenter\_view\_app\_name_  corresponds to a channel).  
