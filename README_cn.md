@@ -59,13 +59,14 @@
     2.  在弹出的Convert Model操作界面中，Model File与Weight File分别选择步骤 2中下载的模型文件和权重文件。
         -   Model Name填写为[表1](#zh-cn_topic_0182554631_table97791025517)中对应的**模型名称**。
         -   参考[图1](#zh-cn_topic_0182554631_fig1513227955)和[图2](#zh-cn_topic_0182554631_fig61342716510)对face_detection和face_emotion模型进行模型转换配置。
-
+           
             **图 1**  face_detection模型转化配置参考<a name="zh-cn_topic_0182554631_fig1513227955"></a>  
+             ![image](https://github.com/futureflsl/sample-faceemotion/blob/master/images/face_detection.png)
             ![](doc/source/img/VanillaCNNModel模型转化配置参考.png "VanillaCNNModel模型转化配置参考")
 
             **图 2**  face_emotion模型转化配置参考<a name="zh-cn_topic_0182554631_fig61342716510"></a>  
             ![](doc/source/img/SpherefaceModel模型转化配置参考.png "SpherefaceModel模型转化配置参考")
-
+             ![image](https://github.com/futureflsl/sample-faceemotion/blob/master/images/face_emotion.png)
 
     3.  单击OK开始模型转换。
 
