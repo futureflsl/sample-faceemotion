@@ -128,7 +128,7 @@ Before running the application, obtain the source code package and configure the
 
     Run the following command to start the Presenter Server program of the facial recognition application in the background:
 
-    **bash run_startpresenterserver.sh**
+    **bash start_presenterserver.sh**
 
     **Figure  5**  Starting the Presenter Server process<a name="en-us_topic_0182554631_fig69531305324"></a>  
     ![images](https://github.com/futureflsl/sample-faceemotion/blob/master/images/Presenter-Server%E8%BF%9B%E7%A8%8B%E5%90%AF%E5%8A%A8.png)
