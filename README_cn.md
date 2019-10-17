@@ -71,7 +71,7 @@
     3.  单击OK开始模型转换。
 
         face\_detection模型在转换的时候，会有报错。报错信息如下所示。
-
+        ![image](https://github.com/futureflsl/sample-faceemotion/blob/master/images/model-conversion-error.jpg)
         **图 3**  模型转换错误<a name="zh-cn_topic_0182554631_fig1632884495219"></a>  
         ![](doc/source/img/模型转换错误.jpg "模型转换错误")
 
@@ -126,7 +126,7 @@
     如[图4](#zh-cn_topic_0182554631_fig184321447181017)所示，请在“Current environment valid ip list“中选择通过浏览器访问Presenter Server服务使用的IP地址，并输入存储人脸识别解析数据的路径。
 
     **图 4**  工程部署示意图<a name="zh-cn_topic_0182554631_fig184321447181017"></a>  
-    ![](doc/source/img/工程部署示意图.png "工程部署示意图")
+   ![image](https://github.com/futureflsl/sample-faceemotion/blob/master/images/%E5%B7%A5%E7%A8%8B%E9%83%A8%E7%BD%B2%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 3.  启动Presenter Server。
 
@@ -138,17 +138,17 @@
     如[图5](#zh-cn_topic_0182554631_fig69531305324)所示，表示presenter\_server的服务启动成功。
 
     **图 5**  Presenter Server进程启动<a name="zh-cn_topic_0182554631_fig69531305324"></a>  
-    ![](doc/source/img/Presenter-Server进程启动.png "Presenter-Server进程启动")
+    ![images](https://github.com/futureflsl/sample-faceemotion/blob/master/images/Presenter-Server%E8%BF%9B%E7%A8%8B%E5%90%AF%E5%8A%A8.png)
 
     使用上图提示的URL登录Presenter Server，仅支持Chrome浏览器。IP地址为[2](#zh-cn_topic_0182554631_li08019112542)中输入的IP地址，端口号默为7009，如下图所示，表示Presenter Server启动成功。
 
     **图 6**  主页显示<a name="zh-cn_topic_0182554631_fig64391558352"></a>  
-    ![](doc/source/img/主页显示.png "主页显示")
+    ![images](https://github.com/futureflsl/sample-faceemotion/blob/master/images/Presenter-Server%E8%BF%9B%E7%A8%8B%E5%90%AF%E5%8A%A8.png)
 
     Presenter Server、Mind Studio与Atlas 200 DK之间通信使用的IP地址示例如下图所示：
 
     **图 7**  IP地址示例<a name="zh-cn_topic_0182554631_fig1881532172010"></a>  
-    ![](doc/source/img/IP地址示例.png "IP地址示例")
+    ![images](https://github.com/futureflsl/sample-faceemotion/blob/master/images/IP%E5%9C%B0%E5%9D%80%E7%A4%BA%E4%BE%8B.png)
 
     其中：
 
@@ -178,7 +178,7 @@
     Presenter Server展示界面如[图8](#zh-cn_topic_0182554631_fig1189774382115)所示。
 
     **图 8**  Presenter Server界面<a name="zh-cn_topic_0182554631_fig1189774382115"></a>  
-    ![](doc/source/img/Presenter-Server界面.png "Presenter-Server界面")
+    ![image](https://github.com/futureflsl/sample-faceemotion/blob/master/images/Presenter-Server%E7%95%8C%E9%9D%A2.png)
 
     >![](doc/source/img/icon-note.gif) **说明：**   
     >-   Face Emotion的Presenter Server最多支持2路Channel同时显示，每个  _presenter\_view\_app\_name_  对应一路Channel。  
