@@ -131,7 +131,7 @@
 
     执行如下命令在后台启动Facial Recognition应用的Presenter Server主程序。
 
-    **bash start_runprensenterserver.sh**
+    **bash start_prensenterserver.sh**
 
     
     如[图5](#zh-cn_topic_0182554631_fig69531305324)所示，表示presenter\_server的服务启动成功。
